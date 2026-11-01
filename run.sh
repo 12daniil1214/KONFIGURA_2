@@ -12,3 +12,13 @@ python3 ./src/main.py -p idna -s https://pypi.org/pypi -m real -o Graf.ggg -d 3 
 python3 ./src/main.py -p idna -s https://pypi.org/pypi -m real -o Graf.png -d -99 -f test
 
 python3 ./src/main.py -p idna -s https://pypi.org/pypi -m real -o Graf.png -d 3 -f
+
+python3 ./src/main.py -p package-that-does-not-exist-123456 -s https://pypi.org/pypi -m real -o Graf.png -d 3 -f test
+
+python3 ./src/main.py -p example -s ./tests/test_invalid.json -m test -o Graf.png -d 3 -f test
+
+python3 ./src/main.py -p example -s ./tests/test_no_info.json -m test -o Graf.png -d 3 -f test
+
+python3 ./src/main.py -p example -s ./tests/test_invalid_dependencies.json -m test -o Graf.png -d 3 -f test
+
+python3 ./src/main.py -p empty-example -s ./tests/test_empty.json -m test -o Graf.png -d 3 -f test

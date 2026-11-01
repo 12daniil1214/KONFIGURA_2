@@ -1,0 +1,10 @@
+{
+    "info": {
+        "name": "example",
+        "requires_dist": [
+            "requests >= 2.20.0",
+            "urllib3 >= 1.26.0",
+            "certifi >= 2020.0"
+        ]
+    }
+}

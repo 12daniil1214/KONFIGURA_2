@@ -1,0 +1,6 @@
+{
+    "info": {
+        "name": "example",
+        "requires_dist": "requests"
+    }
+}
